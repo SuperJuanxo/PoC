@@ -10,3 +10,6 @@ airflow/airflow.db
 
 *.pyc
 *.duckdb
+
+dbt.log
+*.log
