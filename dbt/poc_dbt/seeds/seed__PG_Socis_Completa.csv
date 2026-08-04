@@ -12,5 +12,5 @@ Clau,Soci,SociPotencial,NIF,Nom,Cognoms,DataNaixement,Sexe,CodiPostal,Poblacio,A
 11,3001,,33334444K,Brandon,Sanderson,1975-12-19,1,30001,Roshar,Torre_Urithiru,brandon@cosmere.org,1,2021-01-01,,SYSTEM,
 12,4001,,44445555L,Tolkien,Professor,1892-01-03,1,40001,Rivendel,Casa_Elrond,tolkien@middleearth.org,1,2020-01-01,,SYSTEM,
 13,4002,,44445555L,Agumon,Partner,1999-01-01,1,50001,File_Island,Aldea_Digital,agumon@digimon.net,1,2021-01-01,,SYSTEM,
-14,5001,,,Pikachu,Electric,2010-01-01,1,ABCDE,Pueblo_Paleta,Bosque_Verde,pikachu@@kanto.com,99,2020-01-01,,SYSTEM,
+14,5001,,44445556L,Pikachu,Electric,2010-01-01,1,ABCDE,Pueblo_Paleta,Bosque_Verde,pikachu@@kanto.com,3,2020-01-01,,SYSTEM,
 15,5002,,AAAAAAAAX,Gabumon,Partner,2011-01-01,7,08007,Server_Continent,Cueva_Hielo,gabumon@digimon.net,1,2025-01-01,2024-01-01,SYSTEM,SYSTEM

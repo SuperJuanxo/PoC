@@ -12,7 +12,7 @@
             "type": "file",
             "path": "c:\\Users\\Juan Martí Sañudo\\Desktop\\Repo-demo\\dbt\\poc_dbt\\dev.duckdb",
             "readOnly": true,
-            "attached": true
+            "attached": false
         }
     ],
     "duckdb.defaultDatabase": "dev"
