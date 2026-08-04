@@ -1,0 +1,61 @@
+version: 2
+
+models:
+
+  - name: stg__socis_completa
+
+    description: >
+      Información histórica de socios utilizada para la
+      detección de duplicidades de NIF y consolidación de personas.
+
+    columns:
+
+      - name: Clau
+        tests:
+          - unique
+          - not_null
+
+      - name: Soci
+        tests:
+          - not_null
+
+      - name: NIF
+        tests:
+          - not_null
+
+      - name: Situacio
+        tests:
+          - accepted_values:
+              values: [0, 1, 2, 3]
+
+  - name: stg__masters
+
+    description: >
+      Tabla maestra utilizada para relacionar los códigos
+      operacionales con los identificadores de negocio.
+
+    columns:
+
+      - name: Tabla
+        tests:
+          - not_null
+
+      - name: Codigo_PG
+        tests:
+          - not_null
+
+  - name: stg__persona_roles
+
+    description: >
+      Relación entre una persona y sus roles.
+
+    columns:
+
+      - name: PersonaRol_Id
+        tests:
+          - unique
+          - not_null
+
+      - name: Persona_Id
+        tests:
+          - not_null

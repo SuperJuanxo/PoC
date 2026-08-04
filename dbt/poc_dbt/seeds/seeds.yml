@@ -1,0 +1,51 @@
+version: 2
+
+seeds:
+
+  - name: seed_PG_Socis_Completa
+
+    description: "Datos dummy de socios para validar duplicidades y calidad de datos"
+
+    columns:
+
+      - name: Clau
+        tests:
+          - not_null
+
+      - name: Soci
+        tests:
+          - not_null
+
+      - name: NIF
+        tests:
+          - not_null
+
+      - name: Situacio
+        tests:
+          - accepted_values:
+              values: [0, 1, 2, 3]
+
+  - name: seed_Masters
+
+    description: "Tabla de maestros para mapear Socis y Personas"
+
+    columns:
+
+      - name: Tabla
+        tests:
+          - not_null
+
+      - name: Codigo_PG
+        tests:
+          - not_null
+
+  - name: seed_PersonaRoles
+
+    description: "Relación Persona-Rol"
+
+    columns:
+
+      - name: PersonaRol_Id
+        tests:
+          - unique
+          - not_null

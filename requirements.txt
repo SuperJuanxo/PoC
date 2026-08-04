@@ -1,0 +1,6 @@
+dbt-core==1.9.4
+dbt-duckdb==1.9.2
+
+pandas
+faker
+sqlalchemy

@@ -1,0 +1,19 @@
+version: 2
+
+models:
+
+  - name: marts__dim_socis
+
+    description: >
+      Resultado consolidado de socios tras
+      aplicar reglas de unicidad y duplicidades.
+
+    columns:
+
+      - name: Soci
+        tests:
+          - not_null
+
+      - name: NIF
+        tests:
+          - not_null

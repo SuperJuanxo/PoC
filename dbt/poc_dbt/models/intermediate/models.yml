@@ -1,0 +1,50 @@
+version: 2
+
+models:
+
+  - name: int__socis_unic
+    description: >
+      Socios con relación única Soci-NIF tras aplicar
+      las reglas de limpieza y consolidación.
+
+    columns:
+
+      - name: Soci
+        tests:
+          - not_null
+
+      - name: NIF
+        tests:
+          - not_null
+
+      - name: Cliente_Id
+        tests:
+          - not_null
+
+      - name: Descripcion_del_caso
+        tests:
+          - accepted_values:
+              values: ['OK']
+
+  - name: int__socis_nif_dup
+
+    description: >
+      Casos en los que un NIF aparece asociado a varios
+      socios o forma parte de una posible duplicidad.
+
+    columns:
+
+      - name: Soci
+        tests:
+          - not_null
+
+      - name: NIF
+        tests:
+          - not_null
+
+      - name: Descripcion_del_caso
+        tests:
+          - accepted_values:
+              values:
+                - 'DNI en varios Socis'
+                - 'Ambos casos'

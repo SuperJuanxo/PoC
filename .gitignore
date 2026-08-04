@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+
+dbt/poc_dbt/logs/
+dbt/poc_dbt/target/
+dbt/poc_dbt/dbt_packages/
+
+airflow/logs/
+airflow/airflow.db
+
+*.pyc
+*.duckdb

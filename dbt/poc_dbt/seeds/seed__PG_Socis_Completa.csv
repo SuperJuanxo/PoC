@@ -1,0 +1,16 @@
+Clau,Soci,SociPotencial,NIF,Nom,Cognoms,DataNaixement,Sexe,CodiPostal,Poblacio,Adreca,Email,Situacio,DataAlta,DataBaixa,UsuariAlta,UsuariBaixa
+1,1001,,12345678A,Miguel,Cervantes,1547-09-29,1,45001,La_Mancha,Casa_Don_Quijote,miguel@lamancha.es,1,2020-01-01,,SYSTEM,
+2,1002,,23456789B,Isaac,Asimov,1920-01-02,1,10001,Terminus,Fundacion_1,isaac@foundation.org,1,2020-02-01,,SYSTEM,
+3,1003,,34567890C,Ursula,LeGuin,1929-10-21,2,20001,Terramar,Isla_Roke,ursula@earthsea.org,1,2020-03-01,,SYSTEM,
+4,1004,,45678901D,Ash,Ketchum,1990-05-22,1,08001,Pueblo_Paleta,Casa_Ash,ash@pokemon.com,1,2020-04-01,,SYSTEM,
+5,1005,,56789012E,Misty,Waterflower,1991-07-15,2,08002,Ciudad_Celeste,Gimnasio_Agua,misty@pokemon.com,1,2020-05-01,,SYSTEM,
+6,1006,,67890123F,Tai,Kamiya,1992-08-01,1,08003,File_Island,Casa_Tai,tai@digimon.net,1,2020-06-01,,SYSTEM,
+7,1007,,78901234G,Matt,Ishida,1993-09-09,1,08004,Server_Continent,Casa_Matt,matt@digimon.net,1,2020-07-01,,SYSTEM,
+8,2001,,11112222H,Red,Kanto,1990-01-01,1,08005,Meseta_Anil,Casa_Red,red@pokemon.com,1,2020-08-01,,SYSTEM,
+9,2002,,11112222H,Cynthia,Sinnoh,1988-04-04,2,08006,Sinnoh,Liga_Pokemon,cynthia@pokemon.com,1,2020-09-01,,SYSTEM,
+10,3001,,22223333J,Brandon,Sanderson,1975-12-19,1,30001,Roshar,Torre_Urithiru,brandon@cosmere.org,1,2020-10-01,,SYSTEM,
+11,3001,,33334444K,Brandon,Sanderson,1975-12-19,1,30001,Roshar,Torre_Urithiru,brandon@cosmere.org,1,2021-01-01,,SYSTEM,
+12,4001,,44445555L,Tolkien,Professor,1892-01-03,1,40001,Rivendel,Casa_Elrond,tolkien@middleearth.org,1,2020-01-01,,SYSTEM,
+13,4002,,44445555L,Agumon,Partner,1999-01-01,1,50001,File_Island,Aldea_Digital,agumon@digimon.net,1,2021-01-01,,SYSTEM,
+14,5001,,,Pikachu,Electric,2010-01-01,1,ABCDE,Pueblo_Paleta,Bosque_Verde,pikachu@@kanto.com,99,2020-01-01,,SYSTEM,
+15,5002,,AAAAAAAAX,Gabumon,Partner,2011-01-01,7,08007,Server_Continent,Cueva_Hielo,gabumon@digimon.net,1,2025-01-01,2024-01-01,SYSTEM,SYSTEM
