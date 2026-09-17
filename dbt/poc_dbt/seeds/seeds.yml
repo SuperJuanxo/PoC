@@ -26,12 +26,25 @@ seeds:
               values: [0, 1, 2, 3]
 
   - name: seed_Masters
+    description: |
+      "Tabla de maestros para mapear Socis y Personas"
 
-    description: "Tabla de maestros para mapear Socis y Personas"
+      Importancia:
+      Esta columna identifica la tabla maestra a la que pertenece el registro.
+
+      Reglas de calidad:
+      - No puede ser nula.
+      - Utilizada en el mapeo de maestros.
+    meta:
+      owner: Juanito
+      casos: Uso distinto
+      Extra data: los valores ABC indican CDE
 
     columns:
 
       - name: Tabla
+        definition: "Esta es la tabla 1"
+        Important: "esta columna nos indica blablabla queremos que no sea nulo, tiene test not null porque nulo es malo por ABC"
         tests:
           - not_null
 

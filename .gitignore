@@ -2,7 +2,8 @@ venv/
 __pycache__/
 
 dbt/poc_dbt/logs/
-dbt/poc_dbt/target/
+dbt/poc_dbt/target/compile
+dbt/poc_dbt/target/run
 dbt/poc_dbt/dbt_packages/
 
 airflow/logs/
